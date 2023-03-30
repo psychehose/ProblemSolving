@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77DCBB1928A2BC4E008F6E94 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCBB1828A2BC4E008F6E94 /* main.swift */; };
+		77071CEB29D5F5DA0012C8EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77071CEA29D5F5DA0012C8EA /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		77DCBB1328A2BC4E008F6E94 /* CopyFiles */ = {
+		77071CE529D5F5DA0012C8EA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		77DCBB1528A2BC4E008F6E94 /* Reverse Only Letters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse Only Letters"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77DCBB1828A2BC4E008F6E94 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		77071CE729D5F5DA0012C8EA /* Permutation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Permutation; sourceTree = BUILT_PRODUCTS_DIR; };
+		77071CEA29D5F5DA0012C8EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		77DCBB1228A2BC4E008F6E94 /* Frameworks */ = {
+		77071CE429D5F5DA0012C8EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,103 +38,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		77DCBB0C28A2BC4E008F6E94 = {
+		77071CDE29D5F5DA0012C8EA = {
 			isa = PBXGroup;
 			children = (
-				77DCBB1728A2BC4E008F6E94 /* Reverse Only Letters */,
-				77DCBB1628A2BC4E008F6E94 /* Products */,
+				77071CE929D5F5DA0012C8EA /* Permutation */,
+				77071CE829D5F5DA0012C8EA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		77DCBB1628A2BC4E008F6E94 /* Products */ = {
+		77071CE829D5F5DA0012C8EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77DCBB1528A2BC4E008F6E94 /* Reverse Only Letters */,
+				77071CE729D5F5DA0012C8EA /* Permutation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		77DCBB1728A2BC4E008F6E94 /* Reverse Only Letters */ = {
+		77071CE929D5F5DA0012C8EA /* Permutation */ = {
 			isa = PBXGroup;
 			children = (
-				77DCBB1828A2BC4E008F6E94 /* main.swift */,
+				77071CEA29D5F5DA0012C8EA /* main.swift */,
 			);
-			path = "Reverse Only Letters";
+			path = Permutation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77DCBB1428A2BC4E008F6E94 /* Reverse Only Letters */ = {
+		77071CE629D5F5DA0012C8EA /* Permutation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77DCBB1C28A2BC4E008F6E94 /* Build configuration list for PBXNativeTarget "Reverse Only Letters" */;
+			buildConfigurationList = 77071CEE29D5F5DA0012C8EA /* Build configuration list for PBXNativeTarget "Permutation" */;
 			buildPhases = (
-				77DCBB1128A2BC4E008F6E94 /* Sources */,
-				77DCBB1228A2BC4E008F6E94 /* Frameworks */,
-				77DCBB1328A2BC4E008F6E94 /* CopyFiles */,
+				77071CE329D5F5DA0012C8EA /* Sources */,
+				77071CE429D5F5DA0012C8EA /* Frameworks */,
+				77071CE529D5F5DA0012C8EA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Reverse Only Letters";
-			productName = "Reverse Only Letters";
-			productReference = 77DCBB1528A2BC4E008F6E94 /* Reverse Only Letters */;
+			name = Permutation;
+			productName = Permutation;
+			productReference = 77071CE729D5F5DA0012C8EA /* Permutation */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		77DCBB0D28A2BC4E008F6E94 /* Project object */ = {
+		77071CDF29D5F5DA0012C8EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					77DCBB1428A2BC4E008F6E94 = {
-						CreatedOnToolsVersion = 13.2.1;
+					77071CE629D5F5DA0012C8EA = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 77DCBB1028A2BC4E008F6E94 /* Build configuration list for PBXProject "Reverse Only Letters" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 77071CE229D5F5DA0012C8EA /* Build configuration list for PBXProject "Permutation" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 77DCBB0C28A2BC4E008F6E94;
-			productRefGroup = 77DCBB1628A2BC4E008F6E94 /* Products */;
+			mainGroup = 77071CDE29D5F5DA0012C8EA;
+			productRefGroup = 77071CE829D5F5DA0012C8EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77DCBB1428A2BC4E008F6E94 /* Reverse Only Letters */,
+				77071CE629D5F5DA0012C8EA /* Permutation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		77DCBB1128A2BC4E008F6E94 /* Sources */ = {
+		77071CE329D5F5DA0012C8EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77DCBB1928A2BC4E008F6E94 /* main.swift in Sources */,
+				77071CEB29D5F5DA0012C8EA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		77DCBB1A28A2BC4E008F6E94 /* Debug */ = {
+		77071CEC29D5F5DA0012C8EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -178,7 +177,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -188,14 +187,13 @@
 			};
 			name = Debug;
 		};
-		77DCBB1B28A2BC4E008F6E94 /* Release */ = {
+		77071CED29D5F5DA0012C8EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -233,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -242,7 +240,7 @@
 			};
 			name = Release;
 		};
-		77DCBB1D28A2BC4E008F6E94 /* Debug */ = {
+		77071CEF29D5F5DA0012C8EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		77DCBB1E28A2BC4E008F6E94 /* Release */ = {
+		77071CF029D5F5DA0012C8EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -267,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77DCBB1028A2BC4E008F6E94 /* Build configuration list for PBXProject "Reverse Only Letters" */ = {
+		77071CE229D5F5DA0012C8EA /* Build configuration list for PBXProject "Permutation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77DCBB1A28A2BC4E008F6E94 /* Debug */,
-				77DCBB1B28A2BC4E008F6E94 /* Release */,
+				77071CEC29D5F5DA0012C8EA /* Debug */,
+				77071CED29D5F5DA0012C8EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77DCBB1C28A2BC4E008F6E94 /* Build configuration list for PBXNativeTarget "Reverse Only Letters" */ = {
+		77071CEE29D5F5DA0012C8EA /* Build configuration list for PBXNativeTarget "Permutation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77DCBB1D28A2BC4E008F6E94 /* Debug */,
-				77DCBB1E28A2BC4E008F6E94 /* Release */,
+				77071CEF29D5F5DA0012C8EA /* Debug */,
+				77071CF029D5F5DA0012C8EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 77DCBB0D28A2BC4E008F6E94 /* Project object */;
+	rootObject = 77071CDF29D5F5DA0012C8EA /* Project object */;
 }
